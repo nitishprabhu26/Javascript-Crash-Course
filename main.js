@@ -20,3 +20,23 @@ let age = 30;
 age = 31;
 
 
+// Data types- String, Number, Boolean, null, undefined
+// Primitive - directly assigned to memory
+// string
+const name = 'Brad';
+// number
+const age = 37;
+const rating = 3.5;
+// boolean
+const isCool = true;
+const x = null;
+const y = undefined;
+let z; // undefined
+
+// Check type
+
+// object is output, but its null
+// Null. In JavaScript null is "nothing". ... Unfortunately, in JavaScript, the data type of null is an object. 
+// You can consider it a bug in JavaScript that typeof null is an object.
+console.log(typeof x);
+console.log(typeof z);
