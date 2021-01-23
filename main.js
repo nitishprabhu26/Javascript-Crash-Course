@@ -3,9 +3,9 @@
 // Do not use for debugging. Stops script and only strings
 
 // https://developer.mozilla.org/en-US/docs/Web/API/console
-// console.log("HI !")
-// console.error("This is an error")
-// console.warn("This is a warning")
+console.log("HI !")
+console.error("This is an error")
+console.warn("This is a warning")
 // https://developer.mozilla.org/en-US/docs/Web/API/console
 
 
@@ -23,9 +23,9 @@ age = 31;
 // Data types- String, Number, Boolean, null, undefined
 // Primitive - directly assigned to memory
 // string
-const name = 'Brad';
+const name = 'Nitish';
 // number
-const age = 37;
+age = 26;
 const rating = 3.5;
 // boolean
 const isCool = true;
@@ -40,3 +40,26 @@ let z; // undefined
 // You can consider it a bug in JavaScript that typeof null is an object.
 console.log(typeof x);
 console.log(typeof z);
+
+
+// STRINGS
+
+// Concatenation
+console.log('My name is ' + name + ' and I am ' + age);
+// Template literal (better)
+console.log(`My name is ${name} and I am ${age}`);
+
+// String methods & properties
+const s = 'Hello World';
+let val;
+// Get length
+val = s.length;
+// Change case
+val = s.toUpperCase();
+val = s.toLowerCase();
+// Get sub string
+val = s.substring(0, 5);
+console.log(val)
+// Split into array
+val = s.split('');
+console.log(val)
