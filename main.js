@@ -33,11 +33,15 @@ const x = null;
 const y = undefined;
 let z; // undefined
 
+
 // Check type
 
 // object is output, but its null
 // Null. In JavaScript null is "nothing". ... Unfortunately, in JavaScript, the data type of null is an object. 
 // You can consider it a bug in JavaScript that typeof null is an object.
+// In the first implementation of JavaScript, JavaScript values were represented as a type tag and a value. 
+// The type tag for objects was 0. null was represented as the NULL pointer (0x00 in most platforms). 
+// Consequently, null had 0 as type tag, hence the "object" typeof return value.
 console.log(typeof x);
 console.log(typeof z);
 
@@ -63,3 +67,44 @@ console.log(val)
 // Split into array
 val = s.split('');
 console.log(val)
+
+
+
+// ARRAYS - Store multiple values in a variable
+
+// using array constructor
+// const numbers = new Array(1,2,3,4,5);
+
+// dynamically typed. not like below 
+// const name:string -- typescript
+
+const numbers = [1,2,3,4,5];
+// values can be of any data type
+const fruits = ['apples', 'oranges', 'pears', 'grapes', true, 22];
+console.log(numbers, fruits);
+// an array cant be reassigned
+
+// Get one value - Arrays start at 0
+console.log(fruits[1]);
+
+// Add value
+fruits[4] = 'blueberries';
+
+// Add value using push()
+fruits.push('strawberries');
+
+// Add to beginning
+fruits.unshift('mangoes');
+
+// Remove last value
+fruits.pop();
+
+// // Check if array
+console.log(Array.isArray(fruits));
+
+// // Get index
+console.log(fruits.indexOf('oranges'));
+
+// when declared as const, it cant be reassigned
+// fruits = []
+console.log(fruits);
