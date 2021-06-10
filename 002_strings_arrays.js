@@ -1,11 +1,12 @@
 
 
 // STRINGS
-
+const myName = 'Nitish';
+const age = 26;
 // Concatenation
-console.log('My name is ' + name + ' and I am ' + age);
+console.log('My name is ' + myName + ' and I am ' + age);
 // Template literal (better)
-console.log(`My name is ${name} and I am ${age}`);
+console.log(`My name is ${myName} and I am ${age}`);
 
 // String methods & properties
 const s = 'Hello World';

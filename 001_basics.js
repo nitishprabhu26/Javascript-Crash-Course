@@ -12,7 +12,7 @@ console.warn("This is a warning")
 // VARIABLES - var, let, const
 
 // Var- globally scoped
-// let, const- globally scoped
+// let, const- block level scoped
 // Const - cant reassign value, use only if you wont reassign value, 
 
 let age = 30;
