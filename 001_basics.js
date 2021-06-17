@@ -11,7 +11,7 @@ console.warn("This is a warning")
 
 // VARIABLES - var, let, const
 
-// Var- globally scoped
+// Var- function or globally scoped
 // let, const- block level scoped
 // Const - cant reassign value, use only if you wont reassign value, 
 
@@ -44,3 +44,8 @@ let z; // undefined
 // Consequently, null had 0 as type tag, hence the "object" typeof return value.
 console.log(typeof x);
 console.log(typeof z);
+
+
+// Hoisting
+// let - not hoisted
+// var - declaration of variable hoisted to top of the code. (not initializations)
