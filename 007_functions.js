@@ -9,7 +9,7 @@ function greet(greeting = 'Hello', name) {
     }
   }
   
-  console.log('Howdy', "Nitish")
+  console.log(greet('Howdy', "Nitish"))
   
   // ARROW FUNCTIONS - mentionng return not needed
   const greeting = (greeting = 'Hello', name = 'There') => `${greeting} ${name}`;
