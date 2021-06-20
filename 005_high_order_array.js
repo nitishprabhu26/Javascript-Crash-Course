@@ -6,7 +6,7 @@ todos.forEach(function(todo, i, myTodos) {
     console.log(myTodos);
   });
   
-  // map() - Loop through and create new array - returns an array
+  // map() - Loop through and create new array - "returns an array"
   const todoTextArray = todos.map(function(todo) {
     return todo.text;
   });

@@ -37,7 +37,9 @@ const numbers = [1,2,3,4,5];
 // values can be of any data type
 const fruits = ['apples', 'oranges', 'pears', 'grapes', true, 22];
 console.log(numbers, fruits);
-// an array cant be reassigned
+
+// an array cant be reassigned, because declared as constant
+// fruits = [];
 
 // Get one value - Arrays start at 0
 console.log(fruits[1]);
@@ -54,7 +56,7 @@ fruits.unshift('mangoes');
 // Remove last value
 fruits.pop();
 
-// // Check if array
+// // Check if something is an array
 console.log(Array.isArray(fruits));
 
 // // Get index

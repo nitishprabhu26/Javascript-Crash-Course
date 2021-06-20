@@ -5,6 +5,8 @@ console.log(window)
 
 // Single Element Selectors - selects only the first one
 console.log(document.getElementById('my-form'));
+
+// new one - works like jQuery
 console.log(document.querySelector('.container'));
 console.log(document.querySelector('h1'));
 

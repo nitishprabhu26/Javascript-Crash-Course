@@ -49,5 +49,5 @@ const person = {
   // Get specific object value
   console.log(todos[1].text);
   
-  // Format as JSON
+  // Format as JSON - converting to json while sending to server
   console.log(JSON.stringify(todos));

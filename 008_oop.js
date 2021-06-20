@@ -6,8 +6,11 @@ function Person(firstName, lastName, dob) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.dob = new Date(dob); // Set to actual date object using Date constructor
-    
-    // instead we use prototype
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
+
+
+    // instead of below lines,  we use prototype
+    // we dont need functions with every object instanceof, so its better to put methods under prototype
     // this.getBirthYear = function(){
     //   return this.dob.getFullYear();
     // }
