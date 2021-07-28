@@ -30,6 +30,11 @@ const ul = document.querySelector('.items');
 ul.firstElementChild.textContent = 'Hello';
 ul.children[1].innerText = 'Nitish';
 ul.lastElementChild.innerHTML = '<h1> WELCOME !!</h1>';
+// innerText returns the visible text contained in a node, while textContent returns the full text. 
+// For example, on the following HTML 
+// <span>Hello <span style="display: none;">World</span></span>, 
+// innerText will return 'Hello', while textContent will return 'Hello World'.
+// https://www.geeksforgeeks.org/difference-between-textcontent-and-innertext/
 
 const btn = document.querySelector('.btn');
 btn.style.background = 'red';
